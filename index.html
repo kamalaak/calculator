@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body >
+    <div class="container min-vh-100 bg-dark text-white py-5 ">
+    <h1 class="text-center">Calculator</h1>
+    <div class="calci  text-center textal">
+        <form action="" class="" name="some">
+            <input type="text" name="result">
+            <div class="row justify-content-around py-4 ">
+                <div class="col-md-4">
+                   <input  class="px-3" type="button" value="1" onclick="some.result.value =some.result.value+'1'">
+                   <input  class="px-3" type="button" value="2" onclick="some.result.value =some.result.value+'2'">
+                   <input  class="px-3" type="button" value="3" onclick="some.result.value =some.result.value+'3'">
+                   <input  class="px-3" type="button" value="+" onclick="some.result.value =some.result.value+'+'">
+                  
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4 py-1">
+                       <input  class="px-3" type="button" value="4" onclick="some.result.value =some.result.value+'4'">
+                       <input  class="px-3" type="button" value="5" onclick="some.result.value =some.result.value+'5'">
+                       <input  class="px-3" type="button" value="6" onclick="some.result.value =some.result.value+'6'">
+                       <input  class="px-3" type="button" value="-" onclick="some.result.value =some.result.value+'-'">
+                      
+                    </div>
+                    </div>
+
+
+                   <div class="row">
+                    <div class="col-sm-4 py-1">
+                       <input  class="px-3" type="button" value="7" onclick="some.result.value =some.result.value+'7'">
+                       <input  class="px-3" type="button" value="8" onclick="some.result.value =some.result.value+'8'">
+                       <input  class="px-3" type="button" value="9" onclick="some.result.value =some.result.value+'9'">
+                       <input  class="px-3" type="button" value="/" onclick="some.result.value =some.result.value+'/'">
+                      
+                    </div>
+                    </div>
+
+
+                <div class="row">
+                <div class="col-sm-4 ">
+                    <input class="px-3" type="button" value="*" onclick="some.result.value =some.result.value+'*'">
+                    <input  class="px-3" type="button" value="0" onclick="some.result.value =some.result.value+'0'">
+                    <input  class="px-3" type="button" value="." onclick="some.result.value =some.result.value+'.'">
+                    <input  class="px-3" type="button" value="=" onclick="some.result.value=eval(some.result.value)">
+                </div>
+                </div>
+
+                <div class="row">
+                    <div   class="col-sm-4 py-3 px-2 ">
+                        <input  class="px-3" type="button" value="clear" onclick="some.result.value=''">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
